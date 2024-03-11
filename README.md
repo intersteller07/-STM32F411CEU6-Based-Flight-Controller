@@ -65,3 +65,24 @@ https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe
 
 ![Screenshot (8)](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/3973bad3-4eb7-4e81-a13e-29648c81f602)
 ![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/4eb16000-7abe-4209-af25-581cc869b4e0)
+
+# Calibration for ESC
+
+Instructions for setting throttle calibration for ESC high and low signal input:
+1. Connect the ESC with the motor, connect the signal lead to the board according to the pin and motor port according to the diagram. You should do this for all of the motors you are going to use.
+2. Open the INAV Configurator and connect to the flight control hub.
+3. Adjust the gyroscope / accelerometer and magnometer calibration settings.
+4. Turn on the remote control and enable the receiver protocol in the Receiver section. 
+5. Go to the Output field and set the ESC output protocol according to you. We describe the setup for the STANDARD protocol.
+6.To calibrate ESCs, make sure the propellers are off, flick on the “I understand” toggle, raise Master to full value, and plug in your battery.
+7. The ESCs will go through their tones.
+8. When the double beeping sound is heard (the highest point of the throttle is confirmed), move the throttle to the lowest point.
+9. ESC calibration is considered done when three beeps mean OK.
+10. Now unplug, plug in again, and raise Master very slowly until the motors are spinning comfortably.
+
+This video your can help. https://www.youtube.com/watch?v=1IrgbY0YhqM
+
+# SBUS Signal Inverter
+The inverter is easy to make, only requires 2 resistors (10K ohm and 4.7K ohm), 1 transistor (BC547b), and one servo cable. These are all very cheap and easy to find.
+![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/ab6d0c71-d6ce-4dff-9e2d-8936900b9bbe)
+
