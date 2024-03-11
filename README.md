@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-03-12 at 03 05 00_51d5ef29](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/57b1abc1-c674-49d3-8b7d-8023d3570961)
+![WhatsApp Image 2024-03-12 at 03 05 00_37f0d6ef](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/72bf03f9-3480-4c10-bcdd-031c7dfe88d8)
 
 STM32F411CEU6 Based Flight Controller
 Welcome to the STM32F411CEU6 Drone build! 
