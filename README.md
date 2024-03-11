@@ -82,8 +82,12 @@ Instructions for setting throttle calibration for ESC high and low signal input:
 
 This video your can help. https://www.youtube.com/watch?v=1IrgbY0YhqM
 
+# GY-87 10DOF Module MPU6050 HMC5883L BMP180
+![image](https://user-images.githubusercontent.com/19993109/139479938-a1166d41-17c8-41a2-8903-195406ecd020.png)
+
 # SBUS Signal Inverter
 The inverter is easy to make, only requires 2 resistors (10K ohm and 4.7K ohm), 1 transistor (BC547b), and one servo cable. These are all very cheap and easy to find.
 
 ![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/ab6d0c71-d6ce-4dff-9e2d-8936900b9bbe)
-
+# Support Receiver Types
+![image](https://user-images.githubusercontent.com/19993109/202130179-ef0616bc-785d-4cfc-98a4-097b3db7d4aa.png)
