@@ -47,7 +47,7 @@ https://github.com/iNavFlight/inav-configurator/releases
 Download Configurator for Windows platform (win32 or win64 is present)
 Extract ZIP archive
 Run INAV Configurator app from unpacked folder
-Configurator is not signed, so you have to allow Windows to run untrusted application. There might be a monit for it during first run
+Configurator is not signed, so you have to allow Windows to run untrusted application.
 
 # Install DFU Drivers (DFU mode)
 ## ImpulseRC Driver Fixer
@@ -60,4 +60,8 @@ https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe
 * INAV configurator should show it’s connected in DFU mode in the top right corner (DO NOT click the CONNECT button)
 * Choose the latest hex file for your FC and then “Load Firmware local”. Once loaded, click “Flash Firmware”.
 
+## For INAV 6.1 and newer versions New wire connection
+### This firmware provides SOFTSERIAL support for Quadcopter and Plane. There is no extra servo support for Plane. Supports two extra servos for Quadcopter. The pin connections below are the same for both firmwares.
 
+![Screenshot (8)](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/3973bad3-4eb7-4e81-a13e-29648c81f602)
+![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/4eb16000-7abe-4209-af25-581cc869b4e0)
