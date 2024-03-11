@@ -2,8 +2,11 @@ STM32F411CEU6 Based Flight Controller
 Welcome to the STM32F411CEU6 Drone build! 
 I'm thrilled to present an open-source initiative aimed at unleashing the full potential of unmanned aerial vehicles (UAVs) using the STM32F411CEU6 microcontroller.
 
-Before we start, I would like to thank INAV for providing the Flight configurator which made the more of an ease. 
-You should checkout https://github.com/iNavFlight/inav for more information.
+Before we start, I would like to thank INAV for providing the Flight configurator which made the more of an ease.
+
+This is the unofficial target for INAV( Original source: https://github.com/iNavFlight/inav). Provides support for flight control boards that do not have official INAV support for the STM32F411CEU6 board. Whether or not to use this firmware is the user's responsibility and is free to do so. INAV developer link : https://github.com/iNavFlight/inav/tree/master/docs/development You can find all the details for firmware development here.
+
+
 
 About INAV Flight Configurator:
 iNav (inavflight) is an open-source firmware designed for the navigation and control of multirotors, fixed-wing aircraft, and other unmanned aerial vehicles (UAVs). It is based on the well-known Betaflight firmware but tailored for the unique requirements of GPS-assisted navigation and autonomous flight. Here's a brief overview of iNav Flight:
