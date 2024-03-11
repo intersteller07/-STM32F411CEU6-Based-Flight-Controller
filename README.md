@@ -79,6 +79,8 @@ Instructions for setting throttle calibration for ESC high and low signal input:
 8. When the double beeping sound is heard (the highest point of the throttle is confirmed), move the throttle to the lowest point.
 9. ESC calibration is considered done when three beeps mean OK.
 10. Now unplug, plug in again, and raise Master very slowly until the motors are spinning comfortably.
+![Screenshot (10)](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/a1a622bc-7170-4755-ac03-e041edc26949)
+![Screenshot (11)](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/2ccc622f-8d67-44a6-bc8b-0aa47e460219)
 
 This video your can help. https://www.youtube.com/watch?v=1IrgbY0YhqM
 
