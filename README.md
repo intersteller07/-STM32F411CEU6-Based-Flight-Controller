@@ -66,7 +66,7 @@ https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe
 ![Screenshot (8)](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/3973bad3-4eb7-4e81-a13e-29648c81f602)
 ![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/4eb16000-7abe-4209-af25-581cc869b4e0)
 
-# Calibration of Acclerometer and Magnetometer
+# Calibration of Accelerometer and Magnetometer
 Firstly callibrate the Acclerometer and then the compass.
 ![Screenshot (9)](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/c0b666e1-f92a-4b55-bda9-e25869a2ed34)
 
