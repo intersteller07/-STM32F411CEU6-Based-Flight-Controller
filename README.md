@@ -34,15 +34,15 @@ Telemetry support provides real-time information to the ground station, and Blac
 iNav offers a high level of configurability through its user-friendly interface, enabling users to tune parameters according to the specific requirements of their aircraft.
 
 
-# STM32F411CEU6 INAV Firmware AND Betaflight Firmware
+# STM32F411CEU6 INAV Firmware
 STM32F411CEU6 Board Firmware
 First, let's connect the board and the computer.
 ![image](https://user-images.githubusercontent.com/19993109/139479391-49dafee0-a7da-49ae-9196-10a578d4ac55.png)
 
 # Download INAV Configurator
+### As we are working on firmware 6.1, the configurator should be 6.1 or newer.
 https://github.com/iNavFlight/inav-configurator/releases
-**As we are working on firmware 6.1, the configurator should be 6.1 or newer.
-**
+
 # Windows
 Download Configurator for Windows platform (win32 or win64 is present)
 Extract ZIP archive
