@@ -103,9 +103,15 @@ The inverter is easy to make, only requires 2 resistors (10K ohm and 4.7K ohm), 
 
 ![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/ab6d0c71-d6ce-4dff-9e2d-8936900b9bbe)
 
-
-
-## WS2811 5 Volt Led Strip
+# WS2811 5 Volt Led Strip
 There must be a 5V external voltage source. Don't buy from board source, you will burn the microcontroller.
 ![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/7cbca6a2-a52e-4717-baac-76d49ab18dff)
 ![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/01d31dc0-9265-437c-8cec-c1dc0161a9a5)
+
+# My Build
+![WhatsApp Image 2024-03-12 at 03 05 01_5064bebf](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/5a7da183-2c2b-4e78-a5a5-e86f88732792)
+![WhatsApp Image 2024-03-12 at 03 05 00_37f0d6ef](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/e70871b4-0bb8-4622-ab48-3a74bd903b4d)
+![WhatsApp Image 2024-03-12 at 03 05 00_51d5ef29](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/1b0b717e-5fda-4690-87a3-32a3be922d58)
+![WhatsApp Image 2024-03-12 at 03 05 01_5064bebf](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/3c1f8b9f-ec1f-485b-bd77-5962ab3035b3)
+
+
