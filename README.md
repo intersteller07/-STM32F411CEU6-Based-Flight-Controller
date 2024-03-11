@@ -34,4 +34,30 @@ Telemetry support provides real-time information to the ground station, and Blac
 iNav offers a high level of configurability through its user-friendly interface, enabling users to tune parameters according to the specific requirements of their aircraft.
 
 
+# STM32F411CEU6 INAV Firmware AND Betaflight Firmware
+STM32F411CEU6 Board Firmware
+First, let's connect the board and the computer.
+![image](https://user-images.githubusercontent.com/19993109/139479391-49dafee0-a7da-49ae-9196-10a578d4ac55.png)
+
+# Download INAV Configurator
+https://github.com/iNavFlight/inav-configurator/releases
+**As we are working on firmware 6.1, the configurator should be 6.1 or newer.
+**
+# Windows
+Download Configurator for Windows platform (win32 or win64 is present)
+Extract ZIP archive
+Run INAV Configurator app from unpacked folder
+Configurator is not signed, so you have to allow Windows to run untrusted application. There might be a monit for it during first run
+
+# Install DFU Drivers (DFU mode)
+## ImpulseRC Driver Fixer
+https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe
+* Start ImpluseRC Driver Fixer
+* Connect the FC USB to the PC While holding the boot button in. (DO NOT power on FC via external 5V or Vbat)
+* The ImpulseRC Driver Fixer should then see and load the proper driver
+* Start INAV configurator
+* Connect the FC USB to the PC while holding the boot button in.
+* INAV configurator should show it’s connected in DFU mode in the top right corner (DO NOT click the CONNECT button)
+* Choose the latest hex file for your FC and then “Load Firmware local”. Once loaded, click “Flash Firmware”.
+
 
