@@ -81,15 +81,22 @@ Instructions for setting throttle calibration for ESC high and low signal input:
 10. Now unplug, plug in again, and raise Master very slowly until the motors are spinning comfortably.
 ![Screenshot (10)](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/a1a622bc-7170-4755-ac03-e041edc26949)
 ![Screenshot (11)](https://github.com/intersteller07/-STM32F411CEU6-Based-Flight-Controller/assets/114882504/2ccc622f-8d67-44a6-bc8b-0aa47e460219)
-
-This video your can help. https://www.youtube.com/watch?v=1IrgbY0YhqM
+This video will guide you https://www.youtube.com/watch?v=1IrgbY0YhqM
 
 # GY-87 10DOF Module MPU6050 HMC5883L BMP180
 ![image](https://user-images.githubusercontent.com/19993109/139479938-a1166d41-17c8-41a2-8903-195406ecd020.png)
+
+# Support Receiver Types
+![image](https://user-images.githubusercontent.com/19993109/202130179-ef0616bc-785d-4cfc-98a4-097b3db7d4aa.png)
 
 # SBUS Signal Inverter
 The inverter is easy to make, only requires 2 resistors (10K ohm and 4.7K ohm), 1 transistor (BC547b), and one servo cable. These are all very cheap and easy to find.
 
 ![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/ab6d0c71-d6ce-4dff-9e2d-8936900b9bbe)
-# Support Receiver Types
-![image](https://user-images.githubusercontent.com/19993109/202130179-ef0616bc-785d-4cfc-98a4-097b3db7d4aa.png)
+
+
+
+## WS2811 5 Volt Led Strip
+There must be a 5V external voltage source. Don't buy from board source, you will burn the microcontroller.
+![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/7cbca6a2-a52e-4717-baac-76d49ab18dff)
+![image](https://github.com/rizacelik/STM32F411CEU6_INAV_Firmware/assets/19993109/01d31dc0-9265-437c-8cec-c1dc0161a9a5)
